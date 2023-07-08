@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headmenu{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-around;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.menubar > ul{
+    display: flex;
+    gap: 30px;
+
+}
+.menubar li{
+    border: 5px 5px;
+    padding: 5px 5px;
+    list-style: none;
+
+}
+.menubar li:hover{
+
+    background-color: white; 
+}
