@@ -8,6 +8,7 @@
     background-color: black;
     justify-content: space-around;
     padding: 10px;
+    
 }
 a{
     text-decoration: none;
@@ -28,3 +29,53 @@ a{
 
     background-color: white; 
 }
+#landing{
+    height: 100vh;
+    background-image: url('asset/image/background.jpg');
+    
+}
+.landdesing{
+    padding-top: 300px;
+    
+}
+.maintittle{
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    color: red;
+}
+.mainpara{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.digital{
+    color: black;
+}
+.btn1{
+    border: 1px solid yellow;
+    margin-left: 800px;
+    margin-top: 25px;
+    padding: 10px 12px;
+    background-color: yellow;
+    font-weight: bold;
+    
+}
+.btn2{
+    border: 1px solid white;
+    margin-left: 10px;
+    margin-top: 25px;
+    padding: 10px 12px;
+}
+.btn1:hover{
+    background-color: red ;
+}
+.btn2:hover{
+    color: azure;
+    background-color: black ;
+}
+
+
